@@ -21,7 +21,7 @@ It runs a two model pipeline:
 | Stage | Tool Used |
 |---|---|
 | Image labeling | Roboflow |
-| Model training | Kaggle (3 GPUs |
+| Model training | Kaggle (3 GPUs ) |
 | Video output review | VS Code |
 | Dataset and weights hosting | Hugging Face |
 
