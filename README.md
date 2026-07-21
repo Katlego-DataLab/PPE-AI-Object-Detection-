@@ -7,8 +7,7 @@
 ![Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A YOLOv8 based computer vision system that detects Personal Protective Equipment (PPE) compliance and violations in real time. Built as a capstone project for the AI/ML internship at DecodeLabs.
-
+A YOLOv8 based computer vision system that detects Personal Protective Equipment (PPE) compliance and violations in real time. 
 ## What It Does
 
 The model detects 10 classes covering both compliant PPE usage and violations, including categories like Mask, No Mask, Gloves, No Gloves, Goggles, No Goggles, and Helmet, No Helmet.
