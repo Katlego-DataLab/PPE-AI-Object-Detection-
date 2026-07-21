@@ -10,7 +10,7 @@
 A YOLOv8 based computer vision system that detects Personal Protective Equipment (PPE) compliance and violations in real time. 
 ## What It Does
 
-The model detects 10 classes covering both compliant PPE usage and violations, including categories like Mask, No Mask, Gloves, No Gloves, Goggles, No Goggles, and Helmet, No Helmet.
+The model detects 10 classes covering both compliant PPE usage and violations, including categories like Mask, No Mask, Gloves, No Gloves, Goggles, No Goggles, and Helmet, No Helmet, Safety Vest, No safety Vest
 
 It runs a two model pipeline:
 1. A custom trained YOLOv8 model fine tuned specifically on PPE classes.
