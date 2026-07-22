@@ -7,9 +7,11 @@
 ![Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> Note: The full labeled dataset and trained model weights are not stored in this GitHub repository, since GitHub's uploader only handles about a hundred files at a time and this project has thousands. Both are hosted on Hugging Face instead:
-> * Dataset: [KatlegoMathebula/ppe_dectection](https://huggingface.co/datasets/KatlegoMathebula/ppe_dectection)
+> Note: The full labeled dataset and trained model weights are not stored in this GitHub repository, since GitHub's uploader only handles about a hundred files at a time and this project has thousands. You can download the data from either of these instead:
+> * Hugging Face dataset: [KatlegoMathebula/ppe_dectection](https://huggingface.co/datasets/KatlegoMathebula/ppe_dectection)
+> * Kaggle dataset: [ppe ai object detection dataset](https://www.kaggle.com/datasets/katlegomathebula/ppe-ai-object-detection-dataset)
 > * Model weights: [KatlegoMathebula/ppe detection model](https://huggingface.co/KatlegoMathebula/ppe-detection-model)
+> * Roboflow labeling project: [ppe ai object detection](https://app.roboflow.com/katlego-mathebula/ppe-ai-object-detection/train)
 
 A YOLOv8 based computer vision system that detects Personal Protective Equipment (PPE) compliance and violations in real time. This is a personal project.
 
@@ -20,6 +22,17 @@ The model detects 10 classes covering both compliant PPE usage and violations: G
 It runs a two model pipeline:
 1. A custom trained YOLOv8 model fine tuned specifically on PPE classes.
 2. A COCO pretrained YOLOv8 model (`yolov8s.pt`) used for person detection, working alongside the custom model to check which required items are present on each detected person.
+
+## Tech Stack
+
+* Python
+* PyTorch
+* Ultralytics YOLOv8
+* OpenCV
+* Roboflow (labeling)
+* Kaggle (training, 3 GPUs)
+* Hugging Face Hub (dataset and model hosting)
+* VS Code
 
 ## Tools and Workflow
 
